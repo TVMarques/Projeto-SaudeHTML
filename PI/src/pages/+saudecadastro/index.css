@@ -1,0 +1,308 @@
+body{
+    background-color: #d6d4d4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteudo{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #79DDF3, #5E845F);
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 28px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    position: relative;
+    bottom: 65px;
+    gap: 20px;
+}
+
+.cabecalho img{
+    width: 70px;
+    height: 70px;
+    margin-top: 77px;
+    margin-right: 87px;
+}
+
+h2 {
+    color: white;
+    width: 212px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #246536;
+    
+    padding: 2px 18px;
+    border-radius: 15px;
+    margin-top: 80px;
+    position: relative;
+    right: 80px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 378px;
+    
+    bottom: 50px;
+}
+
+.formulario label{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.6rem;
+    gap: 18px; 
+
+    margin-bottom: -14px;
+    border: solid 3px #003566;
+    background-color: #003566;
+    border-radius: 8px 8px 0 0;
+    padding: 1.3px;
+}
+
+.formulario input{
+    padding: 10px;
+    font-size: 0.2rem;
+    border: none;
+    border-radius:  0 0 12px 12px;
+    outline: none;
+    background-color: #e6dede;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row1 .numero{
+    width: 94px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row1 .numero #numero{
+    width: 94px;
+    border-radius:0 0 12px 12px;
+    
+}
+
+.row1 .complemento{
+    width: 130px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row1 .complemento #complemento{
+    width: 130px;
+    border-radius: 0 0 12px 12px;
+}
+
+
+.row1 .bairro{
+    width: 132px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row1 .bairro #bairro{
+    width: 132px;
+    border-radius: 0 0 12px 12px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row2 .cep{
+    width: 101px;
+    height: 30px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row2 .cep #cep{
+    width: 101px;
+    border-radius:0 0 12px 12px;
+}
+
+.row2 .cidade{
+    width: 180px;
+    height: 30px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row2 .cidade #cidade{
+    width: 180px;
+    border-radius: 0 0 12px 12px;
+}
+
+
+.row2 .uf{
+    width: 76px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row2 .uf #uf{
+    width: 76px;
+    height: 26px;
+    border-radius: 0 0 12px 12px;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row3 .telefone{
+    width: 141px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row3 .telefone #telefone{
+    width: 141px;
+    border-radius:0 0 12px 12px;
+    
+}
+
+.row3 .email{
+    width: 230px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row3 .email #email{
+    width: 228px;
+    border-radius: 0 0 12px 12px;
+}
+
+
+.row4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row4 .data{
+    width: 120px;
+    height: 30px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row4 .data #datanascimento{
+    width: 120px;
+    height: 26px;
+    font-size: 0.5rem;
+    border-radius:0 0 12px 12px;
+    
+}
+
+.row4 .sexo{
+    width: 78px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row4 .sexo #sexo{
+    width: 78px;
+    height: 26px;;
+    border-radius: 0 0 12px 12px;
+}
+
+
+.row4 .cpf{
+    width: 160px;
+    background-color: #003566;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+    
+}
+
+.row4 .cpf #cpf{
+    width: 160px;
+    border-radius: 0 0 12px 12px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    margin: 4px 0 12px 0;
+}
+
+button{
+    background-color: #246536;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 52px;
+    padding: 4px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover{
+    background-color: #1c4d2a;
+}
+
+
+
+/* Ajustes adicionais para telas pequenas 
+
+
+
+  
+
+  
+
+  
+ 
